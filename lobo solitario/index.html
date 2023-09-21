@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El lobo solitario</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!--Agrege la biblioteca de bootstrap(Ruy)
+        Comento dos atributos nuevos, que añaden una capa más de seguridad.
+        integrity= es una cadena de integridad que proporciona una capa adicional de seguridad al asegurarse
+        de que el archivo cargado desde el CDN no haya sido modificado de manera maliciosa. 
+        crossorigin= se utiliza en conjunción con la carga de recursos desde dominios externos. 
+    -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-b5Kf5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Agrege la biblioteca de bootstrap(Ruy)cierre-->
+</head>
+<body>
+    <!--
+   <h1>Huida de la Oscuridad</h1> 
+   <h2>By Joe Dever</h2>
+   <h3>Ilustrado por Gary Chalk</h3>
+   <button id="button1">Introducción</button>
+   <button>Creación del personaje</button>
+   <button>Reglas del juego</button>
+   <button>Créditos</button>
+   <script>
+    var boton1 = document.getElementById('button1');
+    var boton2 = document.getElementById('button2');
+    boton1.addEventListener('click',function(){
+        window.location.href='Introduccion.html';
+    });
+    boton2.addEventListener('click',function(){
+        window.location.href='Lobo_Solitario/Introduccion.html';
+    });
+    boton3.addEventListener('click',function(){
+        window.location.href='Lobo_Solitario/Introduccion.html';
+    });
+    boton4.addEventListener('click',function(){
+        window.location.href='Lobo_Solitario/Introduccion.html';
+    });
+   </script>
+   -->
+   <!--Estructura basica dentro de body-->
+   <header><!--El encabezado de la página, que suele incluir el logotipo, título y navegación.-->
+        
+        <div class="container text-center mt-5 d-flex justify-content-center align-items-center">
+            
+            <div class="row">
+                <img src="assets/img/lobo.png" alt="El lobo solitario">
+                <div class="col">
+                    <nav class="menu">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Inicio</a></li>
+                            <li><a href="#" class="text-white">Nueva Aventura</a></li>
+                            <li><a href="#" class="text-white">Registrarse/Loguearse</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>        
+    </header>
+
+<main>
+    <section>
+        <h2>Sección 1</h2>
+        <p>Contenido de la sección 1.</p>
+    </section>
+    
+    <section>
+        <h2>Sección 2</h2>
+        <p>Contenido de la sección 2.</p>
+    </section>
+</main>
+
+<aside>
+    <h3>Barra lateral</h3>
+    <p>Contenido de la barra lateral.</p>
+</aside>
+
+<footer>
+    <p>Derechos de autor © 2023 Nombre de la Empresa</p>
+</footer>
+</body>
+</html>
