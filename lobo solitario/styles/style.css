@@ -1,17 +1,35 @@
 /**
     Este es el estilo del menú para que este centrado en medio de la pantalla
 */
+body {
+    background-image: url('../assets/img/desktop-wallpaper-lone-wolf-full-bakgrund-and-bakgrund-lonewolf-game.jpg'); /* Reemplaza 'ruta/a/tu/imagen/fondo.jpg' con la ruta real de tu imagen */
+    background-size: 100% auto; /* Ajusta el tamaño de la imagen para que cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed;
+}
+
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     height: 100vh;
+}
+div.container {
+    margin-left: 10cm; /* Mueve el contenedor 10 centímetros hacia la izquierda */
+    width: 100%; /* Aumenta el ancho del contenedor al 60% del ancho de la ventana */
+    
 }
 
 .menu {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
+    
+}
+
+.menu ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding-left: 0; /* Elimina el espacio de sangría izquierdo de la lista */
 }
 
 .menu ul li {
@@ -29,7 +47,30 @@
 .menu ul li a:hover {
     background-color: #555;
 }
+nav.menu ul li a {
+    text-decoration: none; /* Quita la subrayado por defecto en los enlaces */
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    font-family: "Arial", sans-serif; /* Cambia el tipo de fuente */
+    font-size: 32px; /* Cambia el tamaño del texto */
+    font-weight: bold; /* Hace el texto en negrita */
+    
+}
+div .lobito {
+    width: 100%;
+    height: 300px;
+}
 
+footer {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Texto centrado horizontalmente */
+    padding: 20px 0; /* Espaciado interior (arriba y abajo) para separar el contenido del borde */
+    position: fixed; /* Posición fija para cubrir toda la parte inferior */
+    bottom: 0; /* Fijar al borde inferior de la ventana */
+    width: 100%; /* Ancho completo */
+    height: 100px;
+    
+}
 
 /*Fin del menu*/
 
